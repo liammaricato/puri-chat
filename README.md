@@ -10,3 +10,6 @@ npm run dev
 ```
 
 > É possível acessar a aplicação localmente em: [http://localhost:5174/]
+
+### Screenshot
+![image](https://github.com/liammaricato/puri-chat/assets/55520434/a407f0be-f875-4d55-ae13-de5e2a1e13bb)
