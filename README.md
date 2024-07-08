@@ -1,8 +1,12 @@
-# React + Vite
+# PuriChat
+Projeto base criado com React+Vite, fazendo requests pra um LLM local criado a partir do llama3 pra ter a personalidade do Puri, mascote da PuriTea! A PuriTea é um grupo independente de Vtubers brasileiro que faz muito sucesso.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O modelo foi criado usando o `Modelfile` presente. Para reproduzir localmente, tenha o **ollama** instalado e rode `ollama create puri -f ./Modelfile`, ou pelo script `npm run model-setup`, esse é o comando usado pra criar ou atualizar o modelo do Puri.
 
-Currently, two official plugins are available:
+Com o modelo de pé, podemos instalar as dependências do projeto e rodar a aplicação:
+```
+npm i
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> É possível acessar a aplicação localmente em: [http://localhost:5174/]
